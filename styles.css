@@ -1,0 +1,70 @@
+:root{
+    --color: #e6007e;
+    --txt: #FFFFFF;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--txt);
+
+    /* outline: 1px solid red; */
+}
+
+body {
+    background-image: url('halie-west-25xggax4bSA-unsplash.jpg');
+    background-size: cover;        /* Resize the background image to cover the entire container */
+    background-repeat: no-repeat;  /* Do not repeat the image */
+    background-position: center;   /* Center the background image */
+    height: 100%;                  /* Ensure the body takes up the full viewport height */
+}
+
+
+body, html {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.signup-form {
+    display: grid;
+    width: 100%; 
+    max-width: 600px;  /* You can adjust this value as per your design needs */
+    margin: 0 auto;    /* Centers the form horizontally */
+    text-align: center; /* This will center the <p> tag within the form */
+}
+
+.signup-form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.signup-form label, .signup-form input {
+    width: 100%; // makes the label and input take the full width of the container
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.signup-form input {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.input {
+    width: 200px;
+}
+
+.button {
+    margin: 20px;
+}
